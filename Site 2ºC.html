@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site trabalho de programação</title>
+
+  <style>
+    body {
+      background-color: red;
+      color: white;
+      text-align: center;
+    }
+
+    img {
+      width: 50%;
+      max-width: 800px;
+      display: block;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+  </style>
+
+  <script>
+    function mostrarAlerta() {
+      alert('Site criado por Dian Luca Miotto 2ºC');
+    }
+
+    function redirecionarParaBlog() {
+      window.location.href = "https://blog.gokursos.com/carreiras/tecnologia/areas-da-programacao/";
+    }
+
+    function redirecionarAoClicarNaImagem() {
+      window.location.href = "https://blog.gokursos.com/carreiras/tecnologia/areas-da-programacao/";
+    }
+  </script>
+</head>
+
+<body>
+
+  <h1>Site trabalho de programação</h1>
+ 
+  <img src="C:\Users\Usuário\Downloads\download.jpg" onclick="redirecionarAoClicarNaImagem()">
+
+  <p>Clique no botão abaixo para ir para o blog:</p>
+  <button onclick="mostrarAlerta()">Clique aqui</button>
+  <button onclick="redirecionarParaBlog()">Ir para o Blog</button>
+
+  <p>Site sobre áreas da programação</p>
+
+</body>
+
+</html>
